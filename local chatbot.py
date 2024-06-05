@@ -105,8 +105,7 @@ def generate_response(prompt):
 # Chatbot interaction loop
 if __name__ == "__main__":
     print("Chatbot: Hello! I'm your friendly chatbot. Type 'exit' to end the conversation.")
-    input_prompt = """Meet Zara, a fearless techno-wizard with neon hair and a penchant for mixing beats with spells. Always clad in cyberpunk fashion, she navigates reality with a virtual companion, blending magic and code to turn everyday moments into extraordinary adventures. Get ready for a friendship filled with electrifying escapades!\n
-    """
+    input_prompt = 
     while True:
         user_input = input("You: ")
         if user_input.lower() == 'exit':
